@@ -27,5 +27,8 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
 
+      - name: npm insttall
+        run: npm i
+
       - name: Build
         run: npm run build
