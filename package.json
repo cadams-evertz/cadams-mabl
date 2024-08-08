@@ -1,9 +1,10 @@
 {
-  "name": "cadams-mabl",
+  "name": "evMablUtils",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "node ./build.js"
+    "build": "node ./build.js",
+    "typedoc": "npx typedoc src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/cadams-evertz/cadams-mabl#readme",
   "devDependencies": {
-    "esbuild": "0.23.0"
+    "esbuild": "0.23.0",
+    "typedoc": "0.26.5"
   }
 }
