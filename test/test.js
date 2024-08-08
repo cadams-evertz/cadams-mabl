@@ -9,7 +9,7 @@ async function onClick() {
 async function installMablUtils() {
   if (!window.evMablUtils) {
     console.log("Loading mabl utils...");
-    window.evMablUtils = await import('./dist/bundle.js');
+    window.evMablUtils = await import('../dist/bundle.js');
   }
 
   return window.evMablUtils;
