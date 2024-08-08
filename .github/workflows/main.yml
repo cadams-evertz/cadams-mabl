@@ -32,11 +32,11 @@ jobs:
       - name: Test
         run: npm run test
 
-      - name: Build
-        run: npm run build
-
       - name: Generate docs
         run: npm run typedoc
+
+      - name: Bundle
+        run: npm run bundle
 
       - name: Deploy
         run: echo todo

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TODO",
   "scripts": {
-    "build": "node ./build.js",
+    "bundle": "node ./bundle.js",
     "pretest": "npx tsc -p .",
     "test": "npx jasmine --config=./jasmine.json",
     "typedoc": "npx typedoc src/index.ts"
