@@ -1,23 +1,28 @@
 {
   "name": "evMablUtils",
   "version": "1.0.0",
-  "description": "",
+  "description": "TODO",
   "scripts": {
     "build": "node ./build.js",
+    "pretest": "npx tsc -p .",
+    "test": "npx jasmine --config=./jasmine.json",
     "typedoc": "npx typedoc src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cadams-evertz/cadams-mabl.git"
   },
-  "author": "",
+  "author": "Chris Adams (cadams@evertz.com)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cadams-evertz/cadams-mabl/issues"
   },
   "homepage": "https://github.com/cadams-evertz/cadams-mabl#readme",
   "devDependencies": {
+    "@types/jasmine": "5.1.4",
     "esbuild": "0.23.0",
-    "typedoc": "0.26.5"
+    "jasmine": "5.2.0",
+    "typedoc": "0.26.5",
+    "typescript": "5.5.4"
   }
 }

@@ -26,11 +26,17 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
 
-      - name: npm insttall
+      - name: npm install
         run: npm i
+
+      - name: Test
+        run: npm run test
 
       - name: Build
         run: npm run build
 
       - name: Generate docs
         run: npm run typedoc
+
+      - name: Deploy
+        run: echo todo
