@@ -13,5 +13,5 @@ build({
   ...sharedConfig,
   platform: 'browser',
   format: 'esm',
-  outfile: "dist/index.js",
+  outfile: "dist/bundle.js",
 });
