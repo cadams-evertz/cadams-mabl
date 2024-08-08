@@ -1,0 +1,21 @@
+{
+  "name": "cadams-mabl",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadams-evertz/cadams-mabl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cadams-evertz/cadams-mabl/issues"
+  },
+  "homepage": "https://github.com/cadams-evertz/cadams-mabl#readme",
+  "devDependencies": {
+    "esbuild": "0.23.0"
+  }
+}

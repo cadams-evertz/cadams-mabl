@@ -27,7 +27,5 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
 
-      #- name: Show files changed
-      #  run: cat $HOME/files.json
-      - name: Dummy
-        run: echo 'ok'
+      - name: Build
+        run: npm run build
