@@ -4,6 +4,9 @@ set -e
 echo === Running unit tests... ===
 npm run test
 
+echo === Running prettier... ===
+npm run prettier
+
 echo -e "\n=== Version Check ==="
 echo - Have you updated the intended version number in package.json?
 echo Press enter to continue

@@ -1,4 +1,4 @@
-import { double, triple } from "./test";
+import { double, triple } from './test';
 
 describe('test', () => {
   it('double()', () => {
