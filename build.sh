@@ -1,7 +1,10 @@
 #!/bin/bash
 set -e
 
-echo === Check ===
+echo === Running unit tests... ===
+npm run test
+
+echo -e "\n=== Version Check ==="
 echo - Have you updated the intended version number in package.json?
 echo Press enter to continue
 read
