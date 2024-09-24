@@ -1,8 +1,9 @@
 {
   "name": "evMablUtils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "TODO",
   "scripts": {
+    "build": "./build.sh",
     "bundle": "node ./bundle.js",
     "pretest": "npx tsc -p .",
     "test": "npx jasmine --config=./jasmine.json",
@@ -23,6 +24,7 @@
     "esbuild": "0.23.0",
     "jasmine": "5.2.0",
     "typedoc": "0.26.5",
+    "typedoc-github-theme": "0.1.2",
     "typescript": "5.5.4"
   }
 }
