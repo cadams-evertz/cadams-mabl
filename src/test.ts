@@ -13,6 +13,7 @@ export function double(x: number): number {
  * 
  * @param x Value to triple
  * @returns The tripled value
+ * @version 1.1.0
  */
 export function triple(x: number): number {
   return x * 3;
