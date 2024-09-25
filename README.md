@@ -15,4 +15,4 @@ TODO
 
 ## Publishing
 
-TODO
+Run the top-level `./build.sh` script and follow the instructions once it completes.

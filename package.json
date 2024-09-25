@@ -5,6 +5,7 @@
   "scripts": {
     "build": "./build.sh",
     "bundle": "node ./bundle.js",
+    "create-mabl-js": "node ./create-mabl-js.js",
     "pretest": "npx tsc -p .",
     "prettier": "npx prettier src --write",
     "test": "npx jasmine --config=./jasmine.json",
