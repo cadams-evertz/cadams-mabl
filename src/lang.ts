@@ -3,6 +3,7 @@
  *
  * @param text The text to parse
  * @returns The parsed value
+ * @version 1.0.0
  * @example 'undefined' => undefined
  * @example 'null' => null
  * @example 'true' => true
@@ -11,8 +12,12 @@
  * @example '["a", "b"]' => ['a', 'b']
  * @example 'just text' => 'just text'
  */
-export function parseText(text: string): unknown {
-  const lowerText = text?.toLowerCase();
+export function parseText(text: string | null | undefined): unknown {
+  if (!text) {
+    return text;
+  }
+
+  const lowerText = text.toLowerCase();
 
   if (lowerText === 'undefined') {
     return undefined;

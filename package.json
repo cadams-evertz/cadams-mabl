@@ -1,14 +1,13 @@
 {
   "name": "evMablUtils",
-  "version": "1.2.1",
+  "version": "1.0.0",
   "description": "TODO",
   "scripts": {
     "build": "./build.sh",
     "bundle": "node ./bundle.js",
     "create-mabl-js": "node ./create-mabl-js.js",
-    "pretest": "npx tsc -p .",
     "prettier": "npx prettier src --write",
-    "test": "npx jasmine --config=./jasmine.json",
+    "test": "npx jasmine-browser-runner runSpecs",
     "typedoc": "npx typedoc src/index.ts"
   },
   "repository": {
@@ -24,7 +23,10 @@
   "devDependencies": {
     "@types/jasmine": "5.1.4",
     "esbuild": "0.23.0",
+    "glob": "10.4.5",
     "jasmine": "5.2.0",
+    "jasmine-browser-runner": "2.5.0",
+    "jasmine-core": "5.3.0",
     "prettier": "3.3.3",
     "typedoc": "0.26.5",
     "typedoc-github-theme": "0.1.2",

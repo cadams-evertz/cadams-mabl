@@ -12,6 +12,7 @@
  * @param xpath The XPath to query for
  * @param rootEl The optional starting node (default: document)
  * @returns The selected node, nodes or value
+ * @version 1.0.0
  *
  * @ref https://www.w3schools.com/xml/xpath_syntax.asp
  *
