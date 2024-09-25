@@ -37,6 +37,7 @@
     "@typedef",
     "@version"
   ],
+  "customCss": "doc-style.css",
   "inlineTags": [
     "@link",
     "@inheritDoc",
