@@ -1,5 +1,3 @@
-#
-
 `evMablUtils` is a collection of useful functions for use in mabl snippets.
 
 The intention is for any code chunks that become repeated used, they should become functions in
