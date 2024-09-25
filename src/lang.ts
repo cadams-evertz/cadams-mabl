@@ -9,6 +9,8 @@
  * 'undefined' => undefined
  * 'null' => null
  * 'true' => true
+ * 'True' => true
+ * 'TRUE' => true
  * 'false' => false
  * '123' => 123
  * '["a", "b"]' => ['a', 'b']
