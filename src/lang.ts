@@ -4,13 +4,15 @@
  * @param text The text to parse
  * @returns The parsed value
  * @version 1.0.0
- * @example 'undefined' => undefined
- * @example 'null' => null
- * @example 'true' => true
- * @example 'false' => false
- * @example '123' => 123
- * @example '["a", "b"]' => ['a', 'b']
- * @example 'just text' => 'just text'
+ *
+ * @example
+ * 'undefined' => undefined
+ * 'null' => null
+ * 'true' => true
+ * 'false' => false
+ * '123' => 123
+ * '["a", "b"]' => ['a', 'b']
+ * 'just text' => 'just text'
  */
 export function parseText(text: string | null | undefined): unknown {
   if (!text) {
